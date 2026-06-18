@@ -1,7 +1,8 @@
 #ifndef ORDER_H
 #define ORDER_H
-
+#include <chrono>
 #include <string>
+long long timestamp;
 
 enum class Side {
     BUY,
